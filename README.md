@@ -76,7 +76,7 @@ EstruturasDeDados/
    python main.py
    ```
 
-## - Aplicações no Desenvolvimento de Jogos
+## Aplicações no Desenvolvimento de Jogos
 
 1️⃣ Listas Encadeadas – Gerenciamento de eventos em um jogo
 
