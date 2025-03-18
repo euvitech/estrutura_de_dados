@@ -9,8 +9,7 @@
 - [Exemplo de Saída](#exemplo-de-saída)
 - [Aplicações](#aplicações)
 - [Guia de Contribuição](#guia-de-contribuição)
-- [Recursos e Leituras Complementares](#recursos-e-leituras-complementares)
-- [Contribuidores](#contribuidores)
+- [Referências](#recursos-e-leituras-complementares)
 
 ## Descrição do Projeto
 
