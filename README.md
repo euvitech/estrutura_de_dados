@@ -1,11 +1,3 @@
-# Estruturas de Dados em Python
-
-![Estruturas de Dados](https://example.com/caminho/para/imagem.png)
-
-[![GitHub issues](https://img.shields.io/github/issues/seu_usuario/seu_repositorio)](https://github.com/seu_usuario/seu_repositorio/issues)
-[![GitHub forks](https://img.shields.io/github/forks/seu_usuario/seu_repositorio)](https://github.com/seu_usuario/seu_repositorio/network)
-[![GitHub stars](https://img.shields.io/github/stars/seu_usuario/seu_repositorio)](https://github.com/seu_usuario/seu_repositorio/stargazers)
-
 ## Índice
 
 - [Descrição do Projeto](#descrição-do-projeto)
@@ -19,7 +11,6 @@
 - [Guia de Contribuição](#guia-de-contribuição)
 - [Recursos e Leituras Complementares](#recursos-e-leituras-complementares)
 - [Contribuidores](#contribuidores)
-- [Licença](#licença)
 
 ## Descrição do Projeto
 
@@ -83,12 +74,12 @@ EstruturasDeDados/
    python main.py
    ```
 
-## Recursos e Leituras Complementares
+## Referências
 
 - [Documentação Oficial do Python: Estruturas de Dados](https://docs.python.org/pt-br/3.13/tutorial/datastructures.html)
 - [Tipos Embutidos no Python](https://docs.python.org/pt-br/3.13/library/stdtypes.html)
 - [Algoritmos e Estruturas de Dados em Python](https://www.researchgate.net/publication/353192371_Algoritmos_e_Estruturas_de_Dados_em_Python)
 
-Para uma compreensão mais aprofundada sobre listas encadeadas em Python, você pode assistir ao seguinte vídeo:
+Para uma compreensão mais aprofundada sobre listas encadeadas em Python, eu assisti essa aula como complemento:
 
 [![Listas Encadeadas em Python](https://img.youtube.com/vi/8x54aNIR-vo/0.jpg)](https://www.youtube.com/watch?v=8x54aNIR-vo)
