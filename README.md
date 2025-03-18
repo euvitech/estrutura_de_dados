@@ -10,7 +10,7 @@
 - [Funcionalidades](#funcionalidades)
 - [Pré-requisitos](#pré-requisitos)
 - [Como Executar o Projeto](#como-executar-o-projeto)
-- [Aplicações](#Aplicações no Desenvolvimento de Jogos)
+- [Aplicações](#Aplicações-no-Desenvolvimento-de-Jogos)
 - [Referências](#Referências)
 
 
