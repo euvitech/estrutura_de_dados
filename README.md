@@ -33,11 +33,11 @@ O projeto foi criado para facilitar o aprendizado prático dessas estruturas, de
 EstruturasDeDados/
 ├── ListasEncadeadas/
 │   ├── node.py
-│   └── lista_simples.py
+│   └── listaEncadeada.py
 ├── ListasOrdenadas/
-│   └── lista_ordenada.py
+│   └── listaOrdenada.py
 ├── ArvoresBinarias/
-│   └── arvore_binaria.py
+│   └── arvoreBinaria.py
 ├── main.py
 └── README.md
 ```
