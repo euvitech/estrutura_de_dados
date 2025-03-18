@@ -6,10 +6,7 @@
 - [Funcionalidades](#funcionalidades)
 - [Pré-requisitos](#pré-requisitos)
 - [Como Executar o Projeto](#como-executar-o-projeto)
-- [Exemplo de Saída](#exemplo-de-saída)
-- [Aplicações](#aplicações)
-- [Guia de Contribuição](#guia-de-contribuição)
-- [Referências](#recursos-e-leituras-complementares)
+- [Referências](#Referências)
 
 ## Descrição do Projeto
 
