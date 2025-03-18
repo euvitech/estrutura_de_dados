@@ -1,3 +1,7 @@
+## NOME
+- **Vinicius Pereira Souza**
+- **RGM: 40528634**
+
 ## Índice
 
 - [Descrição do Projeto](#descrição-do-projeto)
