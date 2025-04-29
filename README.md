@@ -10,7 +10,9 @@
 - [Funcionalidades](#funcionalidades)
 - [Pré-requisitos](#pré-requisitos)
 - [Como Executar o Projeto](#como-executar-o-projeto)
+- [Aplicações](#Aplicações-no-Desenvolvimento-de-Jogos)
 - [Referências](#Referências)
+
 
 ## Descrição do Projeto
 
@@ -74,10 +76,35 @@ EstruturasDeDados/
    python main.py
    ```
 
+## Aplicações no Desenvolvimento de Jogos
+
+1️⃣ Listas Encadeadas – Gerenciamento de eventos em um jogo
+
+Uma lista encadeada pode ser usada para gerenciar eventos em um jogo, como uma fila de ações que o jogador precisa executar.
+---
+
+2️⃣ Listas Ordenadas – Ranking de jogadores
+
+Uma lista ordenada é útil para armazenar e manter a pontuação dos jogadores de forma crescente ou decrescente.
+
+Isso garante que os jogadores estejam sempre ordenados de acordo com sua pontuação.
+
+---
+
+3️⃣ Árvores Binárias – Busca rápida por inimigos no mapa
+
+Uma árvore binária de busca pode ser usada para armazenar inimigos em um mapa e permitir buscas rápidas.
+
+Essa abordagem otimiza a busca de inimigos, tornando o processamento do jogo mais eficiente.
+
 ## Referências
 
 - [Documentação Oficial do Python: Estruturas de Dados](https://docs.python.org/pt-br/3.13/tutorial/datastructures.html)
 - [Tipos Embutidos no Python](https://docs.python.org/pt-br/3.13/library/stdtypes.html)
+
+Para melhoria do texto apresentado no README foi utilizado a seguinte ferramenta:
+
+- ChatGPT
 
 Para uma compreensão mais aprofundada sobre listas encadeadas em Python, eu assisti essa aula como complemento:
 
