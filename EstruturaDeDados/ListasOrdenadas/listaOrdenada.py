@@ -4,25 +4,25 @@ class ListaOrdenada:
     Assume que os itens são comparáveis (por exemplo, números).
     """
     class Node:
-        def __init__(self, item: any):
-            self.item = item
+        def __init__(self, data: any):
+            self.data = data
             self.next = None
 
         def __repr__(self):
-            return f"Node({self.item})"
+            return f"Node({self.data})"
 
     def __init__(self):
         self.head = None
 
-    def insere_ordenado(self, item: any) -> None:
-        """Insere um item na lista mantendo a ordem crescente."""
-        novo = ListaOrdenada.Node(item)
-        if self.head is None or item < self.head.item:
+    def insere_ordenado(self, data: any) -> None:
+        """Insere um data na lista mantendo a ordem crescente."""
+        novo = ListaOrdenada.Node(data)
+        if self.head is None or data < self.head.data:
             novo.next = self.head
             self.head = novo
         else:
             atual = self.head
-            while atual.next is not None and atual.next.item < item:
+            while atual.next is not None and atual.next.data < data:
                 atual = atual.next
             novo.next = atual.next
             atual.next = novo
@@ -32,6 +32,6 @@ class ListaOrdenada:
         atual = self.head
         elementos = []
         while atual:
-            elementos.append(str(atual.item))
+            elementos.append(str(atual.data))
             atual = atual.next
         print(" -> ".join(elementos) + " -> None")

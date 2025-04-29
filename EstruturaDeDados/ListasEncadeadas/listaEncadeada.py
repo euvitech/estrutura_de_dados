@@ -2,7 +2,7 @@ from ListasEncadeadas.node import Node
 
 class ListaSimples:
     """
-    Implementação de uma lista encadeada simples.
+    Implementação de uma lista encadeada.
     Possui métodos para inserção (início e fim), remoção, busca e impressão dos elementos.
     """
     def __init__(self):
@@ -11,15 +11,15 @@ class ListaSimples:
     def is_empty(self) -> bool:
         return self.head is None
 
-    def insere_inicio(self, item: any) -> None:
+    def insere_inicio(self, data: any) -> None:
         """Insere um novo nó no início da lista."""
-        novo = Node(item)
+        novo = Node(data)
         novo.next = self.head
         self.head = novo
 
-    def insere_fim(self, item: any) -> None:
+    def insere_fim(self, data: any) -> None:
         """Insere um novo nó no final da lista."""
-        novo = Node(item)
+        novo = Node(data)
         if self.is_empty():
             self.head = novo
         else:
@@ -34,17 +34,17 @@ class ListaSimples:
             raise Exception("Lista vazia!")
         removido = self.head
         self.head = self.head.next
-        return removido.item
+        return removido.data
 
-    def remove_item(self, item: any) -> bool:
+    def remove_data(self, data: any) -> bool:
         """
         Remove o primeiro nó que contém o valor especificado.
-        Retorna True se o item foi removido, False caso contrário.
+        Retorna True se o data foi removido, False caso contrário.
         """
         atual = self.head
         anterior = None
         while atual:
-            if atual.item == item:
+            if atual.data == data:
                 if anterior:
                     anterior.next = atual.next
                 else:
@@ -54,11 +54,11 @@ class ListaSimples:
             atual = atual.next
         return False
 
-    def busca(self, item: any) -> Node:
-        """Busca e retorna o nó contendo o item, ou None se não encontrado."""
+    def busca(self, data: any) -> Node:
+        """Busca e retorna o nó contendo o data, ou None se não encontrado."""
         atual = self.head
         while atual:
-            if atual.item == item:
+            if atual.data == data:
                 return atual
             atual = atual.next
         return None
@@ -68,6 +68,6 @@ class ListaSimples:
         atual = self.head
         elementos = []
         while atual:
-            elementos.append(str(atual.item))
+            elementos.append(str(atual.data))
             atual = atual.next
         print(" -> ".join(elementos) + " -> None")
